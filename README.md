@@ -116,7 +116,7 @@
 - [osquery-configuration](https://github.com/palantir/osquery-configuration) - A repository for using osquery for incident detection and response.
  
 ### Network Monitoring
-* [ThreatFade](https://github.com/LloydCoder/tinlance-threatfade) - An entropy and z-score based detection engine for C2 fade moments — periods of deliberate signal suppression in encrypted traffic. Validated on real Merlin QUIC C2 (z=14.76), Cobalt Strike (z=7.01), and IcedID (z=3.89). Includes REST API, SIEM export (Splunk/CEF/CSV), endpoint agents, and satellite signal fusion.
+- [ThreatFade](https://github.com/LloydCoder/tinlance-threatfade) - Network threat-detection tool that uses entropy and z-score analysis to identify suspected command-and-control traffic suppression patterns; includes SIEM-oriented exports.
 - [Zeek](https://github.com/zeek/zeek) (formerly Bro) - A network security monitoring tool
 - [ntopng](https://github.com/ntop/ntopng) - A web-based network traffic monitoring tool
 - [Suricata](https://suricata-ids.org) - A network threat detection engine
@@ -319,7 +319,7 @@
 
 ### Research Papers
 
-* [How I Detected Merlin QUIC C2 Traffic Using Entropy and Z-Scores](https://dev.to/nwachukwu_chinaemerem_f01/how-i-detected-merlin-quic-c2-traffic-using-entropy-and-z-scores-490k-packets-0-false-positives-mki) - Technical writeup on entropy-based C2 fade detection validated against 490K real malware packets with 0% false positives.
+
 - [Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains](https://www.lockheedmartin.com/content/dam/lockheed/data/corporate/documents/LM-White-Paper-Intel-Driven-Defense.pdf)
 - [The Diamond Model of Intrusion Analysis](http://www.activeresponse.org/wp-content/uploads/2013/07/diamond.pdf)
 - [EXPOSURE: Finding Malicious Domains Using Passive DNS Analysis](https://www.cs.ucsb.edu/~chris/research/doc/ndss11_exposure.pdf)
@@ -330,6 +330,7 @@
 
 ### Blogs
 
+- [How I Detected Merlin QUIC C2 Traffic Using Entropy and Z-Scores](https://dev.to/nwachukwu_chinaemerem_f01/how-i-detected-merlin-quic-c2-traffic-using-entropy-and-z-scores-490k-packets-0-false-positives-mki) - Technical blog post on entropy and z-score analysis for suspected command-and-control traffic.
 - [David Bianco's Blog](https://detect-respond.blogspot.com)
 - [DFIR and Threat Hunting Blog](http://findingbad.blogspot.com)
 - [CyberWardog's Blog](https://medium.com/@Cyb3rWard0g) ([old](https://cyberwardog.blogspot.com))
